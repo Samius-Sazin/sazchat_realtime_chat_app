@@ -47,6 +47,7 @@ app.get('/', (req, res) => {
 
 // listen
 httpServer.listen(PORT, () => {
+    console.log("Server is Running");
     // console.log("Server is running on PORT: ", PORT);
     connectDB();
 })
